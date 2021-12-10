@@ -42,3 +42,6 @@ git pull
 
 12. To Undo a change in a file from working directory:
 git checkout -- <file name> 
+
+13. To Undo a change from staging area:
+git reset -- <file name>
