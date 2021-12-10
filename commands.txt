@@ -52,3 +52,5 @@ git clean -xdf
 15. To reset a commit to previous commit:
 git reset HEAD^ ## the ^ sign denotes the no. of commit back we need
 git reset HEAD~2 ##~2 denotes the no. of commit back we need
+
+##!!#!#!#!#!#!#!#!#!#!#!#!#
