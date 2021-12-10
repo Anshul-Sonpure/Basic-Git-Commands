@@ -78,3 +78,6 @@ git checkout -b <branch_name>
 
 ## To merge the changes switch to main branch --
 git merge <branch_name>
+
+## To publish a branch --
+git push --set-upstream origin <branch_name>
