@@ -40,3 +40,5 @@ git push
 11. To pull the changes from remote repo to your local repo:
 git pull 
 
+12. To Undo a change in a file from working directory:
+git checkout -- <file name> 
