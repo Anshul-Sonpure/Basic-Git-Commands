@@ -1,0 +1,30 @@
+1.To generate the ssh key for GitHub:
+ssh-keygen -t rsa -C "james@google.com"
+## it will prompt for ssh key name and pass phrase, you can either provide them or leave blank. 
+Once public and private key is generated, copy the content of public key and store them in your github(Profile-->Settings-->SSH key & GPG Key).
+
+2. Add the private key from your laptop/Desktop:
+ssh-add ~./<name of private ssh key>
+## you will see message saying "identifed.."
+
+3. To check the connectivity whether ssh key is working or not
+ssh -vT git@github.com
+## you will see message saying "Hi! XYZ .."
+
+4. To initialse a local repository as git repo:
+git init
+## You will see message something like "repository initialsed as git repo"
+
+5.To Configure user email and username:
+git config --global user.email "James@google.com"
+git config --global user.name "James"
+
+## To verify user.email and user.name:
+git config --global user.email / user.name
+
+6. To check the status of your repo for changed/unchanged files:
+git status
+
+7. To check the remote url of your repo:
+git remote -v
+
