@@ -55,3 +55,19 @@ git reset HEAD~2 ##~2 denotes the no. of commit back we need
 
 16. To revert back to a commit pushed in remote repo and push back to remote repo:
 git revert <SHA Value of Latest commit>
+
+17. Git Ignore:
+## no .log file -- 
+*.log
+
+## Track Error.log, even .log are ignored
+!Error.log
+
+## only ignore TODO in current dir and not in subdir/TODO
+/TODO
+
+## ignore all files in the build /dir
+build/
+
+## ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
