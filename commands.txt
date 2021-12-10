@@ -52,3 +52,6 @@ git clean -xdf
 15. To reset a commit to previous commit:
 git reset HEAD^ ## the ^ sign denotes the no. of commit back we need
 git reset HEAD~2 ##~2 denotes the no. of commit back we need
+
+16. To revert back to a commit pushed in remote repo and push back to remote repo:
+git revert <SHA Value of Latest commit>
