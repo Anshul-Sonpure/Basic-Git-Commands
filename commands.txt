@@ -28,3 +28,14 @@ git status
 7. To check the remote url of your repo:
 git remote -v
 
+8. To add a new created/modified file to staging Area:
+git add <file_name>
+
+9. To commit your changes to local repo:
+git commit -m "message"
+
+10. To push your changes to remote repo:
+git push
+
+11. To pull the changes from remote repo to your local repo:
+git pull
