@@ -140,3 +140,17 @@ git stash apply <stash_no.> (will keep work in stash)
 
 Clear the Stash:
 git stash drop <stash_no>
+
+22. Git Remotes:
+Manage the set of repositories ("remotes") whose branches you track.
+
+Add--
+git remote add <name> url
+eg. git remote add origin git@github.com:user/gitbasic.git
+
+View--
+git remote -v
+git remote show <name>
+
+Remove--
+git remote remove <name>
