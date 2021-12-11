@@ -125,3 +125,18 @@ git tag -d <tagname>
 
 Checking out Tags:
 git checkout <tag>
+
+21. Git Stash: 
+This command saves your local modifications away and reverts the working directory to match the HEAD commit.
+Save a mod file in working directory--
+git stash save "some description"
+
+View Stashes:
+git stash list
+
+Bring the changes back:
+git stash pop <stash_no.> (will remove the work from stash as welll)
+git stash apply <stash_no.> (will keep work in stash)
+
+Clear the Stash:
+git stash drop <stash_no>
